@@ -1,13 +1,16 @@
 html {
     background-image: url('poodaa.gif');
-    background-position: center;
-    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;   /* تملأ العرض والارتفاع بالكامل */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #24272b;
     color: white;
     text-align: center;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
 }
 
 h1 {
